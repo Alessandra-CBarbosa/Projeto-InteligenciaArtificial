@@ -1,0 +1,19 @@
+/*aqui você pode primeiro colocar estilos padrões 
+para o site todo como por exemplo ajustar a font de todo o site,
+remover o margin e padding, pois depois você adiciona isso em seus estilos*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+/*também já da pra tirar o estilo da tag a ul e li 
+e depois personalizar como desejar*/
+a,
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+}
