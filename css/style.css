@@ -1,19 +1,92 @@
-/*aqui você pode primeiro colocar estilos padrões 
-para o site todo como por exemplo ajustar a font de todo o site,
-remover o margin e padding, pois depois você adiciona isso em seus estilos*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: rgb(2, 2, 2);
+}
 
 body {
-  font-family: "Roboto", sans-serif;
-  color: #000;
-  margin: 0;
-  padding: 0;
+    background: linear-gradient(to bottom, #f0f0f0, #ffd1dc);
 }
 
-/*também já da pra tirar o estilo da tag a ul e li 
-e depois personalizar como desejar*/
-a,
-ul,
-li {
-  text-decoration: none;
-  list-style: none;
+p {
+    font-family: 'Campton', 'Arial', sans-serif;
+    color: black;
+    margin: 20px;
+    padding: 20px;
+    line-height: 1.6;
 }
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    float: right;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid gray;
+}
+
+.header .title {
+    color: black;
+    font-size: 1.2em;
+}
+
+.header .nav-item {
+    color: gray;
+    margin-left: 10px;
+}
+
+.header .nav-item:hover {
+    border-bottom: 2px solid lightpink;
+}
+
+.image-container {
+    margin-top: 30px;
+}
+
+.image-container img {
+    width: 500px;
+    height: 500px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to right, rgb(172, 170, 170), rgb(248, 177, 188), pink);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, darkgray, rgb(255, 121, 193), rgb(173, 100, 137));
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+}
+
