@@ -121,4 +121,9 @@ section {
     font-size: 18px;
 }
 
+section {
+    font-family: Georgia, serif;
+    margin-top: 50px;
+}
+
 /*comentario*/
