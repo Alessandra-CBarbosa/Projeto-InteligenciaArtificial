@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 h1 {
-    font-family: 'Roboto', sans-serif;
+    
     font-weight: 100;
     color: rgb(2, 2, 2);
 }
 
 body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
     background: linear-gradient(to bottom, #f0f0f0, #ffd1dc);
 }
 
 p {
     font-family: 'Campton', 'Arial', sans-serif;
-    color: black;
+    color: #000000;
     margin: 20px;
     padding: 20px;
     line-height: 1.6;
@@ -32,21 +35,21 @@ img {
 }
 
 .header {
-    font-family: 'Roboto', sans-serif;
-    background-color: white;
+    
+    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid #808080;
 }
 
 .header .title {
-    color: black;
+    color: #000000;
     font-size: 1.2em;
 }
 
 .header .nav-item {
-    color: gray;
+    color: #808080;
     margin-left: 10px;
 
     text-decoration: none;
@@ -54,7 +57,7 @@ img {
 }
 
 .header .nav-item:hover {
-    border-bottom: 2px solid lightpink;
+    border-bottom: 2px solid #ffb6c1;
 }
 
 .image-container {
@@ -85,7 +88,7 @@ p {
 
 .btn a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 
 }
 
@@ -95,15 +98,15 @@ p {
     font-size: 15px;
     text-align: center;
     text-decoration: none;
-    color: white;
-    background: linear-gradient(to right, rgb(172, 170, 170), rgb(248, 177, 188), pink);
+    color: #ffffff;
+    background: linear-gradient(to right, rgb(172, 170, 170), rgb(248, 177, 188), #ffc0cb);
     border-radius: 5px;
     transition: background-color 0.3s ease;
     border: none;
 }
 
 .btn:hover {
-    background: linear-gradient(to right, darkgray, rgb(255, 121, 193), rgb(173, 100, 137));
+    background: linear-gradient(to right, #a9a9a9, rgb(255, 121, 193), rgb(173, 100, 137));
 }
 
 ul {
