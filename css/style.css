@@ -23,7 +23,7 @@ p {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    float: right;
+    float: left;
 }
 
 img {
@@ -62,8 +62,25 @@ img {
 }
 
 .image-container img {
+    width: 350px;
+    height: 350px;
+}
+
+.image-container2 img {
+
+    float: right;
     width: 500px;
-    height: 500px;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
+.image-container2 img {
+    margin-bottom: 20px;
+}
+
+h1,
+p {
+    margin-top: 100px;
 }
 
 .btn a {
