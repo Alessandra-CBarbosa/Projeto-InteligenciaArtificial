@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
-h1 {
-  font-weight: 100;
-  color: rgb(2, 2, 2);
-}
-
 body {
   padding: 0;
   margin: 0;
@@ -14,7 +9,7 @@ body {
 
 p {
   font-family: "Campton", "Arial", sans-serif;
-  color: #000000;
+  color: #5c5a5a;
   margin: 20px;
   padding: 20px;
   line-height: 1.6;
@@ -49,7 +44,6 @@ img {
 .header .nav-item {
   color: #808080;
   margin-left: 10px;
-
   text-decoration: none;
 }
 
@@ -94,24 +88,20 @@ p {
   text-align: center;
   text-decoration: none;
   color: #ffffff;
-  background: linear-gradient(
-    to right,
-    rgb(172, 170, 170),
-    rgb(248, 177, 188),
-    #ffc0cb
-  );
+  background: linear-gradient(to right,
+      rgb(172, 170, 170),
+      rgb(248, 177, 188),
+      #ffc0cb);
   border-radius: 5px;
   transition: background-color 0.3s ease;
   border: none;
 }
 
 .btn:hover {
-  background: linear-gradient(
-    to right,
-    #a9a9a9,
-    rgb(255, 121, 193),
-    rgb(173, 100, 137)
-  );
+  background: linear-gradient(to right,
+      #a9a9a9,
+      rgb(255, 121, 193),
+      rgb(173, 100, 137));
 }
 
 ul {
@@ -124,21 +114,31 @@ li {
   margin: 10px;
 }
 
-/*
 
-aqui se você classes em vez de somente section, você sabe qual estilo é para cada section
-e uma sugestão que eu dou é colocar alturas fixas para cada section. Pox exemplo
-
-height: 600px;
-*/
-
-section {
+.section1 {
   margin-top: 20px;
   font-size: 18px;
   height: 600px;
 }
-/*usar classes em vez de diretamente section*/
-section {
-  font-family: Georgia, serif;
+
+
+.section1 .div1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: #3f3d3d;
+  height: 10px;
+}
+
+
+.section2 {
+  font-family: "georgia", serif;
   margin-top: 50px;
+  color: #5c5a5a;
+  height: 800px;
+}
+
+.div2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #3f3d3d
 }
