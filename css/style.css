@@ -146,3 +146,14 @@ li {
   font-size: 16px;
   color: #3f3d3d
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #d4b1a7;
+  color: #adaaaa;
+  text-align: center;
+  padding: 10px 0;
+}
