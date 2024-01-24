@@ -10,7 +10,7 @@ body {
 p {
   font-family: "Campton", "Arial", sans-serif;
   color: #5c5a5a;
-  margin: 20px;
+  margin: 80px;
   margin-right: 800px;
   padding: 20px;
   line-height: 1.6;
@@ -53,19 +53,19 @@ img {
 }
 
 .image-container {
-  margin-top: 30px;
+  margin-top: 398px;
 }
 
 .image-container img {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
 }
 
 .image-container2 img {
   position: relative;
-  top: -300px;
+  top: -400px;
   float: right;
-  width: 600px;
+  width: 500px;
   height: 300px;
   margin-left: 40px;
   margin-right: 80px;
@@ -99,6 +99,7 @@ p {
   border-radius: 5px;
   transition: background-color 0.3s ease;
   border: none;
+  margin-left: 100px;
 }
 
 .btn:hover {
@@ -115,7 +116,7 @@ ul {
 
 li {
   display: inline-block;
-  margin: 10px;
+  margin: 30px;
 }
 
 
@@ -131,6 +132,7 @@ li {
   font-size: 30px;
   color: #3f3d3d;
   height: 10px;
+  margin-left: 100px;
 }
 
 
@@ -148,12 +150,28 @@ li {
 }
 
 .footer {
-  position: fixed;
+  position: 0;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: #d4b1a7;
   color: #adaaaa;
-  text-align: height;
-  padding: 10px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .copyright {
+  color: #000000;
+}
+
+.footer .nav {
+  display: flex;
+  gap: 20px;
+}
+
+.footer .nav-item {
+  color: #5c5a5a;
+  text-decoration: none;
 }
