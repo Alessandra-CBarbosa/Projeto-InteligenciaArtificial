@@ -6,7 +6,17 @@ body {
   font-family: "Roboto", sans-serif;
   background: linear-gradient(to bottom, #f0f0f0, #ffd1dc);
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+/*será que é necessário usar diretamente a tag html? se você quer margin-top deveria utilizar uma classe e estilizar a classe e não diretamente o elemento p, h1, se tivessem vários p em teu sistema, todos ficariam com essa margem sem necessidade*/
+h1,
+p {
+  margin-top: 100px;
+}
 
+/*esse p tá solto, ele faz parte de qual container/div/section */
 p {
   font-family: "Campton", "Arial", sans-serif;
   color: #5c5a5a;
@@ -14,19 +24,17 @@ p {
   margin-right: 800px;
   padding: 20px;
   line-height: 1.6;
+  width: 600px;
 }
 
-.image-container {
+ul {
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 100vh;
-  float: left;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+li {
+  display: inline-block;
+  margin: 30px;
 }
 
 .header {
@@ -35,6 +43,7 @@ img {
   justify-content: space-between;
   padding: 10px;
   border-bottom: 2px solid #808080;
+  height: 60px;
 }
 
 .header .title {
@@ -52,39 +61,43 @@ img {
   border-bottom: 2px solid #ffb6c1;
 }
 
+/*imagem container de quem? de qual section?*/
 .image-container {
-  margin-top: 398px;
+  /*100vh é 100% a altura da tela, acredito que você não queria usar 100%*/
+  /* height: 100vh; */
+  width: 400px;
+  /* float: left; */
 }
-
+/*tags repetidas sem necessidade*/
+.image-container {
+  /*essa margin sem necessidade também, estava empurrando a imagem lá pra baixo*/
+  /* margin-top: 398px; */
+}
+/*imagem container de quem? de qual section?*/
 .image-container img {
   width: 300px;
   height: 300px;
 }
-
-.image-container2 img {
-  position: relative;
-  top: -400px;
-  float: right;
+/*tags repetidas sem necessidade*/
+.image-container2 {
   width: 500px;
-  height: 300px;
-  margin-left: 40px;
-  margin-right: 80px;
 }
-
+/*imagem container de quem? de qual section?*/
 .image-container2 img {
-  margin-bottom: 20px;
+  /* position: relative;
+  top: -400px;
+  float: right;*/
+  /*height: 300px;
+  margin-left: 40px;
+  margin-right: 80px; */
 }
 
-h1,
-p {
-  margin-top: 100px;
-}
-
+/*btn de quem, da onde? de qual section?*/
 .btn a {
   text-decoration: none;
   color: #ffffff;
 }
-
+/*btn de quem, da onde? de qual section?*/
 .btn {
   display: inline-block;
   padding: 10px 20px;
@@ -92,49 +105,44 @@ p {
   text-align: center;
   text-decoration: none;
   color: #ffffff;
-  background: linear-gradient(to right,
-      rgb(172, 170, 170),
-      rgb(248, 177, 188),
-      #ffc0cb);
+  background: linear-gradient(
+    to right,
+    rgb(172, 170, 170),
+    rgb(248, 177, 188),
+    #ffc0cb
+  );
   border-radius: 5px;
   transition: background-color 0.3s ease;
   border: none;
   margin-left: 100px;
 }
-
+/*btn de quem, da onde? de qual section?*/
 .btn:hover {
-  background: linear-gradient(to right,
-      #a9a9a9,
-      rgb(255, 121, 193),
-      rgb(173, 100, 137));
+  background: linear-gradient(
+    to right,
+    #a9a9a9,
+    rgb(255, 121, 193),
+    rgb(173, 100, 137)
+  );
 }
 
-ul {
-  display: flex;
+.section-container {
+  margin-top: 100px;
+  font-size: 18px;
+  height: 600px;
+  display: flex; /*ESTUDAR https://origamid.com/projetos/flexbox-guia-completo/*/
+  justify-content: space-between;
   align-items: center;
 }
 
-li {
-  display: inline-block;
-  margin: 30px;
-}
-
-
-.section1 {
-  margin-top: 20px;
-  font-size: 18px;
-  height: 600px;
-}
-
-
-.section1 .div1 {
-  font-family: 'Roboto', sans-serif;
+.section-container .div1 {
+  font-family: "Roboto", sans-serif;
   font-size: 30px;
   color: #3f3d3d;
-  height: 10px;
-  margin-left: 100px;
+  width: 600px;
+  /* não é necessario height: 10px;
+  margin-left: 100px; */
 }
-
 
 .section2 {
   font-family: "georgia", serif;
@@ -146,7 +154,7 @@ li {
 .div2 {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  color: #3f3d3d
+  color: #3f3d3d;
 }
 
 .footer {
