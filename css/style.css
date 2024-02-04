@@ -7,39 +7,67 @@ body {
   background: linear-gradient(to bottom, #f0f0f0, #ffd1dc);
 }
 
-p {
+p { /* esse faz parte do parágrafo da section1*/
   font-family: "Campton", "Arial", sans-serif;
-  color: #5c5a5a;
+  color:#5c5a5a;
   margin: 80px;
   margin-right: 800px;
   padding: 20px;
   line-height: 1.6;
+  width:600px;
 }
 
-.image-container {
+
+
+
+
+img { /* Da mesma forma seria a estilização da imagem "Imagem que representa a pagina Papo Dev"*/
+  max-width: 100%;
+  height: auto;
+  display :inline-block ;
+  margin  : 8px;
+}
+
+.container-de-imagem1 img { /*Corresponde ao container da imagem "Imagem que representa a pagina Papo Dev"*/
+  position: relative;
+  top: -400px;
+  float: right;
+  width: 500px;
+  height: 300px;
+  margin-left: 40px;
+  margin-right: 80px;
+  margin-bottom: 20px;
+
+}
+
+.container-de-imagem2 {/* Da mesma forma seria a estilização da imagem "Imagem que representa a Inteligência artificial"*/
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   float: left;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+
+.container-de-imagem2 img { /*Corresponde ao container da imagem  "Imagem que representa a Inteligência artificial" */
+  width: 300px;
+  height: 300px;
 }
+
+
 
 .header {
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 2px;
   border-bottom: 2px solid #808080;
 }
 
 .header .title {
   color: #000000;
-  font-size: 1.2em;
+  font-size: 2.5em;
+  padding:10px;
 }
 
 .header .nav-item {
@@ -52,40 +80,13 @@ img {
   border-bottom: 2px solid #ffb6c1;
 }
 
-.image-container {
-  margin-top: 398px;
-}
 
-.image-container img {
-  width: 300px;
-  height: 300px;
-}
-
-.image-container2 img {
-  position: relative;
-  top: -400px;
-  float: right;
-  width: 500px;
-  height: 300px;
-  margin-left: 40px;
-  margin-right: 80px;
-}
-
-.image-container2 img {
-  margin-bottom: 20px;
-}
-
-h1,
-p {
-  margin-top: 100px;
-}
-
-.btn a {
+.BotãoLeiaMais a {
   text-decoration: none;
   color: #ffffff;
 }
 
-.btn {
+.BotãoLeiaMais {
   display: inline-block;
   padding: 10px 20px;
   font-size: 15px;
@@ -102,7 +103,7 @@ p {
   margin-left: 100px;
 }
 
-.btn:hover {
+.BotãoLeiaMais:hover {
   background: linear-gradient(to right,
       #a9a9a9,
       rgb(255, 121, 193),
@@ -124,33 +125,33 @@ li {
   margin-top: 20px;
   font-size: 18px;
   height: 600px;
+  
 }
 
 
-.section1 .div1 {
-  font-family: 'Roboto', sans-serif;
+.section1 .div1 { /*faz parte do titulo "h1" */
   font-size: 30px;
-  color: #3f3d3d;
+  color:#3f3d3d;
   height: 10px;
   margin-left: 100px;
+  margin-top: 100px;
 }
 
 
 .section2 {
   font-family: "georgia", serif;
-  margin-top: 50px;
+  margin-top: 150px;
   color: #5c5a5a;
   height: 800px;
 }
 
 .div2 {
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: #3f3d3d
 }
 
-.footer {
-  position: 0;
+.Rodapé {
+  position:fixed; 
   left: 0;
   bottom: 0;
   width: 100%;
@@ -160,18 +161,20 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
-.footer .copyright {
+.Rodapé .copyright {
   color: #000000;
 }
 
-.footer .nav {
+.Rodapé .nav {
   display: flex;
   gap: 20px;
 }
 
-.footer .nav-item {
+.Rodapé .nav-item {
   color: #5c5a5a;
   text-decoration: none;
 }
+

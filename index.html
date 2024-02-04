@@ -45,29 +45,27 @@
       interessante para aprender.
     </p>
 
-    <button class="btn">
+    <button class="BotãoLeiaMais">
       <a href="http://127.0.0.1:5500/ProjetoInteligenciaArtificial/index.html">Leia mais</a>
     </button>
 
-    <figure class="image-container2">
+    <figure class="container-de-imagem1">
       <img src="img/PapoDev.jpg" alt="Imagem que representa a pagina Papo Dev" />
     </figure>
 
   </section>
 
-  <figure class="image-container">
-    <img src="img/ImagemDeAlessandraBarbosa.png" alt="Imagem que representa a Inteligência artificial" />
-  </figure>
-
-  <div class="div2">
-    <h1>
-      🌺 A integração da inteligência artificial na prática pedagógica.
-
-    </h1>
-
-    <hr />
-  </div>
+  
   <section class="section2">
+    <div class="div2">
+      <h2>
+        🌺 A integração da inteligência artificial na prática pedagógica.
+  
+      </h2>
+  
+      <hr /><!-- Nao me recordo sobre o que vc havia falado sobre outra forma de quebra de linha, vou pesquisar mais adiante apos ajustes mais necessários.Gostaria que pudesse mostrar como poderia fazer essa quebra de linha com estilo sem ser hr-->
+    </div>
+    
     <ul>
       <li>
         <strong>A importância da inteligência artificial para as escolas:</strong>
@@ -97,19 +95,55 @@
       </li>
     </ul>
 
+    <figure class="container-de-imagem2">
+      <img src="img/ImagemDeAlessandraBarbosa.png" alt="Imagem que representa a Inteligência artificial" />
+    </figure>
+
     <!--Esse texto é da autoria de Alessandra C. C. Barbosa ( Atividade mapa de estudos feito para a Instituição de ensino Unicesumar 06/12/2023).-->
   </section>
-  <div class="footer">
+
+  <footer class="Rodapé">
     <div class="copyright">@2024 Copyright - Papo Dev</div>
-    <nav>
-      <ul class="nav">
+    <nav class="nav">
+      <ul>
         <li><strong><a href="#" class="nav-item"> ▪️ Início</a></strong></li>
         <li><strong><a href="#" class="nav-item"> ▪️ Sobre nós</a></strong></li>
         <li><strong><a href="#" class="nav-item"> ▪️ Suporte</a></strong></li>
         <li><strong><a href="#" class="nav-item"> ▪️ Contato</a></strong></li>
       </ul>
     </nav>
-  </div>
+</div>
+  </footer>
+  
 </body>
 
 </html>
+
+<!-- Comentários CSS e html-->
+<!-- Em "Rodapé" tentei modificando na tag "position coloando fixed" ou até mesmo removendo, nao consegui deixar fixa, porem quando eu retiro a tag position a barra de rolagem some , mas o rodapé se movimenta até o cabeçalho. Preciso de ajuda nesta parte-->
+<!--Acabei nao percebendo e fiz os comentários do CSS aqui no html, mas eu deixo sempre especificado quando se trata do html e css-->
+<!-- Na parte html, eu ajustei o footer e apliquei class para estiliza-lo-->
+<!--No html e css dei nome a class do button "PrimeiroBotão" fiz o mesmo no css ao estiliza-lo -->
+<!-- No cabeçalho,ajustei o tamanho e aumentei o tamanho do titulo "papo dev"-->
+<!-- "/*btn de quem, da onde? de qual seção?*/
+. btn  a {" voce havia me questionado sobre o porque da sigla btn( Ela é usada como nome de classe para estilizar botões.) Acredito que você não recorde que seja do botão aonde me ajudou a corrigir a tag relacionada ao mesmo. Se para vocÊ ficou confuso, eu renominei e fiz os devidos ajustes no html e css.-->
+<!-- Retirei as fontes repetidas e deixei apenas a fonte matriz da pagina "font-family: 'Roboto', sans-serif;"-->
+<!--h1 ,
+p {
+  margin-top :  100 px ;
+} Adicionei a margin-top:100px na ".section1 .div1 "(vou renomear)adiciona margem superior ao titulo-->
+<!--  /*100vh é 100% na altura da tela, acredito que você não queria usar 100%*/
+  /* altura: 100vh; */ foi um lapso, ja corrigido-->
+  <!-- retirei ".image-container2 {
+  margin-top: 398px;
+}"-->
+<!-- Fiz os ajustes que você me orientou a corrigir e comentar, creio que ficou faltando alguns ajustes. Gostaria de sugestão sobre a tag (p { /* esse faz parte do parágrafo da section1*/
+  font-family: "Campton", "Arial", sans-serif;
+  color:#5c5a5a;
+  margin: 80px;
+  margin-right: 800px;
+  padding: 20px;
+  line-height: 1.6;
+  width:600px;
+}) de como melhor ela poderia ficar-->
+<!-- ainda preciso ajustar a imagem da robozinha. Nao modifiquei ainda outra forma de nomear as classes sections 1 e 2 e div 1 e 2, sigo nos ajustes e conforme seja vou subindo para o github-->
