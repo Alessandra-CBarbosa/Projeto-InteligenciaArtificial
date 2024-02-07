@@ -81,12 +81,12 @@ img { /* Da mesma forma seria a estilização da imagem "Imagem que representa a
 }
 
 
-.BotãoLeiaMais a {
+.botao-leia-mais a {
   text-decoration: none;
   color: #ffffff;
 }
 
-.BotãoLeiaMais {
+.botao-leia-mais {
   display: inline-block;
   padding: 10px 20px;
   font-size: 15px;
@@ -103,7 +103,7 @@ img { /* Da mesma forma seria a estilização da imagem "Imagem que representa a
   margin-left: 100px;
 }
 
-.BotãoLeiaMais:hover {
+.botao-leia-mais:hover {
   background: linear-gradient(to right,
       #a9a9a9,
       rgb(255, 121, 193),
