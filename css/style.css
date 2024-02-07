@@ -150,7 +150,7 @@ li {
   color: #3f3d3d
 }
 
-.Rodapé {
+.rodape {
   position:fixed; 
   left: 0;
   bottom: 0;
@@ -164,16 +164,16 @@ li {
   
 }
 
-.Rodapé .copyright {
+.rodape .copyright {
   color: #000000;
 }
 
-.Rodapé .nav {
+.rodape .nav {
   display: flex;
   gap: 20px;
 }
 
-.Rodapé .nav-item {
+.rodape .nav-item {
   color: #5c5a5a;
   text-decoration: none;
 }
