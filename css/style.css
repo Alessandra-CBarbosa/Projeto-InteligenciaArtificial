@@ -28,7 +28,7 @@ img {
   margin-right: 80px;
   margin-bottom: 20px;
   border: 5px solid #c4c3c3;
-  /*usei essa tag para estilizar( colocar uma borda) a imagem que representa a pagina "papo Dev"*/
+  /*usei essa tag border para estilizar( colocar uma borda) a imagem que representa a pagina "papo Dev"*/
 
 }
 
@@ -112,27 +112,30 @@ ul {
   display: flex;
   align-items: right;
 
+
 }
 
 li {
   display: inline-block;
   margin: 30px;
-  text-align: left;
+  text-align: right;
 }
 
 
 .section1 {
-  margin-top: 20px;
+  margin-top: 150px;
+  /* creio que tem duas tags repetidas, devo remover essa? */
   font-size: 18px;
   height: 600px;
 
 }
 
-.section1 p {/* arrumei essa tag que estava solta e encaixei ela na section1*/
+.section1 p {
+  /* arrumei essa tag que estava solta e encaixei ela na section1*/
   /* esse faz parte do parágrafo da section1*/
   font-family: "Campton", "Arial", sans-serif;
   color: #5c5a5a;
-  margin: 80px;
+  margin: 95px;
   margin-right: 800px;
   padding: 20px;
   line-height: 1.6;
@@ -147,6 +150,7 @@ li {
   height: 10px;
   margin-left: 100px;
   margin-top: 100px;
+  /* é uma tag repetida, devo remover essa?*/
 }
 
 
@@ -155,6 +159,8 @@ li {
   margin-top: 150px;
   color: #5c5a5a;
   height: 800px;
+  text-align: right;
+  clear: both;
 
 }
 
@@ -168,7 +174,8 @@ li {
 }
 
 .rodape {
-  position:fixed;
+  /* estou tendo dificuldades de  solucionar o erro do rodape, ja tentei ajustar usando alternativas mudando para "relative, etc", mas nada deu resultado" preciso de ajudo em relação a ele.*/
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
