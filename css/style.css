@@ -7,8 +7,6 @@ body {
   background: linear-gradient(to bottom, #f0f0f0, #ffd1dc);
 }
 
-
-
 img {
   /* Da mesma forma seria a estilização da imagem "Imagem que representa a pagina Papo Dev"*/
   max-width: 100%;
@@ -29,30 +27,7 @@ img {
   margin-bottom: 20px;
   border: 5px solid #c4c3c3;
   /*usei essa tag border para estilizar( colocar uma borda) a imagem que representa a pagina "papo Dev"*/
-
 }
-
-.container-de-imagem2 {
-  /* Da mesma forma seria a estilização da imagem "Imagem que representa a Inteligência artificial"*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  float: left;
-}
-
-
-.container-de-imagem2 img {
-  /*Corresponde ao container da imagem  "Imagem que representa a Inteligência artificial" */
-  position: relative;
-  top: -550px;
-  /* coloquei essas duas tags( position e top) que funcionam juntas para movimentar a imagem da robozinha para cima*/
-  width: 200px;
-  height: 200px;
-
-}
-
-
 
 .header {
   background-color: #ffffff;
@@ -78,7 +53,6 @@ img {
   border-bottom: 2px solid #ffb6c1;
 }
 
-
 .botao-leia-mais a {
   text-decoration: none;
   color: #ffffff;
@@ -91,10 +65,12 @@ img {
   text-align: center;
   text-decoration: none;
   color: #ffffff;
-  background: linear-gradient(to right,
-      rgb(172, 170, 170),
-      rgb(248, 177, 188),
-      #ffc0cb);
+  background: linear-gradient(
+    to right,
+    rgb(172, 170, 170),
+    rgb(248, 177, 188),
+    #ffc0cb
+  );
   border-radius: 5px;
   transition: background-color 0.3s ease;
   border: none;
@@ -102,17 +78,17 @@ img {
 }
 
 .botao-leia-mais:hover {
-  background: linear-gradient(to right,
-      #a9a9a9,
-      rgb(255, 121, 193),
-      rgb(173, 100, 137));
+  background: linear-gradient(
+    to right,
+    #a9a9a9,
+    rgb(255, 121, 193),
+    rgb(173, 100, 137)
+  );
 }
 
 ul {
   display: flex;
   align-items: right;
-
-
 }
 
 li {
@@ -121,13 +97,10 @@ li {
   text-align: right;
 }
 
-
 .section1 {
-  margin-top: 150px;
   /* creio que tem duas tags repetidas, devo remover essa? */
   font-size: 18px;
   height: 600px;
-
 }
 
 .section1 p {
@@ -142,7 +115,6 @@ li {
   width: 600px;
 }
 
-
 .section1 .div1 {
   /*faz parte do titulo "h1" */
   font-size: 30px;
@@ -153,39 +125,53 @@ li {
   /* é uma tag repetida, devo remover essa?*/
 }
 
-
 .section2 {
   font-family: "georgia", serif;
-  margin-top: 150px;
   color: #5c5a5a;
-  height: 800px;
-  text-align: right;
-  clear: both;
-
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
 }
 
+.contaneir-texto {
+  width: 60%;
+}
 
-.div2 {
+.section2 .texto-ia {
+  display: flex;
+}
+
+.section2 .texto-ia li {
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+.section2 .texto-ia li strong {
+  margin-bottom: 20px;
+}
+
+.texto-ia-titulo {
   font-size: 16px;
   color: #504e4e;
-  text-align: right;
+  width: 100%;
+  padding-bottom: 25px;
   /* ao adicionar essa tag, tive a intenção de movimentar o titulo da div2 para a esquerda.*/
   border-bottom: 1px solid #8f8e8a80;
 }
 
+.container-de-imagem2 {
+  width: 25%;
+}
+
 .rodape {
   /* estou tendo dificuldades de  solucionar o erro do rodape, ja tentei ajustar usando alternativas mudando para "relative, etc", mas nada deu resultado" preciso de ajudo em relação a ele.*/
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
   background-color: #d4b1a7;
   color: #adaaaa;
-  padding: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-
+  width: 100%;
 }
 
 .rodape .copyright {
