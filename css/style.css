@@ -65,12 +65,10 @@ img {
   text-align: center;
   text-decoration: none;
   color: #ffffff;
-  background: linear-gradient(
-    to right,
-    rgb(172, 170, 170),
-    rgb(248, 177, 188),
-    #ffc0cb
-  );
+  background: linear-gradient(to right,
+      rgb(172, 170, 170),
+      rgb(248, 177, 188),
+      #ffc0cb);
   border-radius: 5px;
   transition: background-color 0.3s ease;
   border: none;
@@ -78,12 +76,10 @@ img {
 }
 
 .botao-leia-mais:hover {
-  background: linear-gradient(
-    to right,
-    #a9a9a9,
-    rgb(255, 121, 193),
-    rgb(173, 100, 137)
-  );
+  background: linear-gradient(to right,
+      #a9a9a9,
+      rgb(255, 121, 193),
+      rgb(173, 100, 137));
 }
 
 ul {
@@ -97,13 +93,13 @@ li {
   text-align: right;
 }
 
-.section1 {
+.home-papo-dev {
   /* creio que tem duas tags repetidas, devo remover essa? */
   font-size: 18px;
   height: 600px;
 }
 
-.section1 p {
+.home-papo-dev p {
   /* arrumei essa tag que estava solta e encaixei ela na section1*/
   /* esse faz parte do parágrafo da section1*/
   font-family: "Campton", "Arial", sans-serif;
@@ -115,7 +111,8 @@ li {
   width: 600px;
 }
 
-.section1 .container-papo-dev{
+.home-papo-dev .container-papo-dev {
+
   /*faz parte do titulo "h1" */
   font-size: 30px;
   color: #3f3d3d;
@@ -125,7 +122,7 @@ li {
   /* é uma tag repetida, devo remover essa?*/
 }
 
-.section2 {
+.inteligencia-artificial {
   font-family: "georgia", serif;
   color: #5c5a5a;
   display: flex;
@@ -133,26 +130,27 @@ li {
   margin-bottom: 30px;
 }
 
-.contaneir-texto {
+.container-texto {
   width: 60%;
 }
 
-.section2 .texto-ia {
+.inteligencia-artificial.texto-ia {
   display: flex;
 }
 
-.section2 .texto-ia li {
+.inteligencia-artificial.texto-ia li {
   height: 170px;
   display: flex;
   flex-direction: column;
   text-align: justify;
 }
-.section2 .texto-ia li strong {
+
+.inteligencia-artificial.texto-ia li strong {
   margin-bottom: 20px;
 }
 
 .texto-ia-titulo {
-  font-size: 16px;
+  font-size: 24px;
   color: #504e4e;
   width: 100%;
   padding-bottom: 25px;
@@ -164,6 +162,49 @@ li {
   width: 25%;
 }
 
+/* Coloquei para definir a cor , o alinhamentoe a fonte dos textos */
+.container-tecnologia {
+  color:#5c5a5a;
+  font-family: Georgia, serif;
+  text-align:center;
+  
+}
+
+/* Coloquei para definir a cor e a fonte dos títulos */
+.titulo-tecnologia{
+  color: #3f3d3d;
+  font-size: 24px;
+  
+}
+.titulo-html,
+.titulo-css,
+.titulo-js {
+  color: #3f3d3d;
+  font-size: 22px;
+  text-align:center;
+  
+}
+
+/* Coloquei para definir o layout da lista */
+.container-lista-tecnologia {
+  display: flex;
+  align-items: center;
+}
+
+/* coloquei para definir a borda, tamanho,cor de fundo das imagens */
+.container-da-imagem-html,
+.container-da-imagem-css,
+.container-da-imagem-js {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 8px;
+  border: 2px solid #8f8e8a;
+  border-radius: 10px;
+  background: #ffffff;
+  
+  
+}
 .rodape {
   /* estou tendo dificuldades de  solucionar o erro do rodape, ja tentei ajustar usando alternativas mudando para "relative, etc", mas nada deu resultado" preciso de ajudo em relação a ele.*/
   background-color: #d4b1a7;
