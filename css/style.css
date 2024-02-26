@@ -154,7 +154,6 @@ li {
   color: #504e4e;
   width: 100%;
   padding-bottom: 25px;
-  /* ao adicionar essa tag, tive a intenção de movimentar o titulo da div2 para a esquerda.*/
   border-bottom: 1px solid #8f8e8a80;
 }
 
@@ -164,47 +163,61 @@ li {
 
 /* Coloquei para definir a cor , o alinhamentoe a fonte dos textos */
 .container-tecnologia {
-  color:#5c5a5a;
+  color: #5c5a5a;
   font-family: Georgia, serif;
-  text-align:center;
-  
+  text-align: center;
+
 }
 
 /* Coloquei para definir a cor e a fonte dos títulos */
-.titulo-tecnologia{
+.titulo-tecnologia {
   color: #3f3d3d;
   font-size: 24px;
-  
+  border-bottom: 1px solid #8f8e8a80;
+  padding-bottom: 25px;
+  text-align: center;
+  margin-top: 200px;
 }
+
 .titulo-html,
 .titulo-css,
 .titulo-js {
   color: #3f3d3d;
   font-size: 22px;
-  text-align:center;
-  
+  text-align: center;
+  margin-top: 80px;
+
 }
 
 /* Coloquei para definir o layout da lista */
 .container-lista-tecnologia {
   display: flex;
+  justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 /* coloquei para definir a borda, tamanho,cor de fundo das imagens */
 .container-da-imagem-html,
 .container-da-imagem-css,
 .container-da-imagem-js {
-    max-width: 100%;
-    height: auto;
-    display: inline-block;
-    margin: 8px;
+  max-width: 100%;
+  height: min-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
   border: 2px solid #8f8e8a;
-  border-radius: 10px;
-  background: #ffffff;
-  
-  
+  border-radius: 50%;
+  background-color: #d4b1a7;
+  width: 150px;
+  height: 150px;
+
 }
+
+
+
+
 .rodape {
   /* estou tendo dificuldades de  solucionar o erro do rodape, ja tentei ajustar usando alternativas mudando para "relative, etc", mas nada deu resultado" preciso de ajudo em relação a ele.*/
   background-color: #d4b1a7;
