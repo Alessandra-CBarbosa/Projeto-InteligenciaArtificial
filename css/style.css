@@ -177,6 +177,7 @@ li {
   padding-bottom: 25px;
   text-align: center;
   margin-top: 200px;
+
 }
 
 .titulo-html,
@@ -186,7 +187,7 @@ li {
   font-size: 22px;
   text-align: center;
   margin-top: 80px;
-
+  padding-right: 10px;
 }
 
 /* Coloquei para definir o layout da lista */
@@ -195,9 +196,10 @@ li {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-right: 100px;
 }
 
-/* coloquei para definir a borda, tamanho,cor de fundo das imagens */
+/* coloquei para definir a borda, tamanho,cor de fundo das imagens.Alinhei as imagens */
 .container-da-imagem-html,
 .container-da-imagem-css,
 .container-da-imagem-js {
@@ -212,6 +214,7 @@ li {
   background-color: #d4b1a7;
   width: 150px;
   height: 150px;
+  margin-left: auto;
 
 }
 
@@ -219,7 +222,7 @@ li {
 
 
 .rodape {
-  /* estou tendo dificuldades de  solucionar o erro do rodape, ja tentei ajustar usando alternativas mudando para "relative, etc", mas nada deu resultado" preciso de ajudo em relação a ele.*/
+
   background-color: #d4b1a7;
   color: #adaaaa;
   display: flex;
